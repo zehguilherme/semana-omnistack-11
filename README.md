@@ -24,8 +24,6 @@
 - 26/03 - Desenvolvendo o app mobile
 - 27/03 - Funcionalidades avançadas
 
-------
-
 <h2 align="center">
     Tecnologias
 </h2>
@@ -38,8 +36,6 @@
 
 - [React](https://pt-br.reactjs.org/) - Web
 - [React Native](https://reactnative.dev/) - Mobile
-
------
 
 ## Licença
 
