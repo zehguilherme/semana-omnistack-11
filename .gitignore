@@ -104,5 +104,8 @@ dist
 .tern-port
 
 #Folders
-wallpapers_omniStack_11
+wallpapers_omniStack_11/*
 video-aulas
+
+# Not ignore
+!wallpapers_omniStack_11/Wallpaper-OmniStack-11-1920x1080.jpg
