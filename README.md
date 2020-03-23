@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./wallpapers_omniStack_11/Wallpaper&#32;OmniStack&#32;11&#32;-&#32;1920x1080.jpg" alt="Wallpaper de um programador" height="300" width="auto">
+    <img src="wallpapers_omniStack_11/Wallpaper-OmniStack-11-1920x1080.jpg" alt="Wallpaper de um programador" height="300" width="auto">
 </div>
 
 <br>
@@ -39,6 +39,8 @@
 - [React](https://pt-br.reactjs.org/) - Web
 - [React Native](https://reactnative.dev/) - Mobile
 
-----
+-----
 
+## Licença
 
+MIT © José Guilherme Paro Monteiro Tomaine
