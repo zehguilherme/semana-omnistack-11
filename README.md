@@ -12,6 +12,12 @@
     Semana Omnistack 11
 </h1>
 
+<h2 align="center">
+    Be the Hero
+</h2>
+
+<p>Aplicação tem o objetivo de intermediar o contato de ONG's que auxiliam os animais com as pessoas que quiserem ajudá-las financeiramente.<p>
+
 ## Empresa
 
 [Rocketseat](https://rocketseat.com.br/) - [Prof. Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)
@@ -31,6 +37,8 @@
 ### Back-end
 
 - [Node](https://nodejs.org/en/)
+- API RESTful
+- [Express](https://expressjs.com/pt-br/) - Framework
 
 ### Front-end
 
@@ -39,4 +47,4 @@
 
 ## Licença
 
-MIT © José Guilherme Paro Monteiro Tomaine
+MIT © [José Guilherme Paro Monteiro Tomaine](https://www.linkedin.com/in/jos%C3%A9-guilherme-paro-monteiro-tomaine-03540265/)
