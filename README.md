@@ -34,7 +34,7 @@
     Tecnologias
 </h2>
 
-### Back-end
+### Back-end 🚧 (Em construção)
 
 - [Node](https://nodejs.org/en/)
 - API RESTful
@@ -42,7 +42,7 @@
 - [SQLite](https://www.sqlite.org/index.html) - Banco de dados relacional
 - [KNEX.js](http://knexjs.org/) - Query Builder
 
-### Front-end
+### Front-end 🚧 (Em construção)
 
 - [React](https://pt-br.reactjs.org/) - Web
 - [React Native](https://reactnative.dev/) - Mobile
