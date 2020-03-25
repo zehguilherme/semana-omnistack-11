@@ -39,11 +39,15 @@
 - [Node](https://nodejs.org/en/)
 - API RESTful
 - [Express](https://expressjs.com/pt-br/) - Framework
+- [SQLite](https://www.sqlite.org/index.html) - Banco de dados relacional
+- [KNEX.js](http://knexjs.org/) - Query Builder
 
 ### Front-end
 
 - [React](https://pt-br.reactjs.org/) - Web
 - [React Native](https://reactnative.dev/) - Mobile
+
+--------
 
 ## Licença
 
