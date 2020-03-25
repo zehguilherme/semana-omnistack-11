@@ -24,11 +24,11 @@
 
 ## Datas
 
-- 23/03 - Conhecendo a OmniStack
-- 24/03 - Criando a base da aplicação
-- 25/03 - Construindo a interface web
-- 26/03 - Desenvolvendo o app mobile
-- 27/03 - Funcionalidades avançadas
+- [x] 23/03 - Conhecendo a OmniStack
+- [ ] 24/03 - Criando a base da aplicação
+- [ ] 25/03 - Construindo a interface web
+- [ ] 26/03 - Desenvolvendo o app mobile
+- [ ] 27/03 - Funcionalidades avançadas
 
 <h2 align="center">
     Tecnologias
@@ -37,10 +37,12 @@
 ### Back-end 🚧 (Em construção)
 
 - [Node](https://nodejs.org/en/)
-- API RESTful
+- [API RESTful](https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/)
 - [Express](https://expressjs.com/pt-br/) - Framework
 - [SQLite](https://www.sqlite.org/index.html) - Banco de dados relacional
 - [KNEX.js](http://knexjs.org/) - Query Builder
+- [Nodemon](https://nodemon.io/)
+- [CORS]()
 
 ### Front-end 🚧 (Em construção)
 
