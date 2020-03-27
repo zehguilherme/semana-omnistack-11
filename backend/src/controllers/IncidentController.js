@@ -9,9 +9,16 @@ module.exports = {
     const [count] = await connection('incidents').count()
 
     const incidents = await connection('incidents')
+      .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
       .limit(5)                  // limitar busca para serem mostrados 5 registros por vez
       .offset((page - 1) * 5)    // pular a cada página de 5 em 5 registros em relação a anterior. Ex: 1 - 1 * 5
-      .select('*')
+      .select(['incidents.*',    // todos os dados da tabela incidents;
+        'ongs.name',
+        'ongs.email',
+        'ongs.whatsapp',
+        'ongs.city',
+        'ongs.uf'
+      ])
 
     //Total de itens na lista
     res.header('X-Total_Count', count['count(*)'])
