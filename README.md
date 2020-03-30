@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="wallpapers_omniStack_11/Wallpaper-OmniStack-11-1920x1080.jpg" alt="Wallpaper de um programador" height="300" width="auto">
+    <img src="frontend/src/assets/heroes.png" alt="Pessoas se abraçando" height="300" width="auto">
 </div>
 
 <br>
@@ -13,10 +13,10 @@
 </h1>
 
 <h2 align="center">
-    Be the Hero
+    <img src="frontend/src/assets/logo.svg" alt="Be The Hero" height="120" width="auto">
 </h2>
 
-<p>Aplicação tem o objetivo de intermediar o contato de ONG's que auxiliam os animais com as pessoas que quiserem ajudá-las financeiramente.<p>
+<p>A aplicação tem o objetivo de intermediar o contato de ONG's que auxiliam os animais com as pessoas que quiserem ajudá-las financeiramente.<p>
 
 ## Empresa
 
@@ -25,7 +25,7 @@
 ## Datas
 
 - [x] 23/03 - Conhecendo a OmniStack
-- [ ] 24/03 - Criando a base da aplicação
+- [x] 24/03 - Criando a base da aplicação
 - [ ] 25/03 - Construindo a interface web
 - [ ] 26/03 - Desenvolvendo o app mobile
 - [ ] 27/03 - Funcionalidades avançadas
@@ -42,11 +42,18 @@
 - [SQLite](https://www.sqlite.org/index.html) - Banco de dados relacional
 - [KNEX.js](http://knexjs.org/) - Query Builder
 - [Nodemon](https://nodemon.io/)
-- [CORS]()
+- [CORS](https://enable-cors.org/)
 
 ### Front-end 🚧 (Em construção)
 
 - [React](https://pt-br.reactjs.org/) - Web
+  - React Icons - Pacote que contém todos os ícones utilizados no React - `npm install react-icons`
+    - [Feather icons](https://feathericons.com/)
+
+  - Rotas da aplicação
+    - React router dom - `npm install react-router-dom`
+
+
 - [React Native](https://reactnative.dev/) - Mobile
 
 --------
