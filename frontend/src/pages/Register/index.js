@@ -19,7 +19,7 @@ export default function Register () {
 
           <Link className="back-link" to="/">
             <FiArrowLeft size={16} color="#e02041"></FiArrowLeft>  {/*size: altura*/}
-            Voltar para a página Logon
+            Voltar para home
           </Link>
         </section>
 
