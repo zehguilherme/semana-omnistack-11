@@ -34,6 +34,15 @@
     Tecnologias
 </h2>
 
+## Gerenciador de pacotes
+
+Pode-se utilizar:
+
+- [npm](https://www.npmjs.com/) (Esta foi a escolha para esse projeto)
+
+  ou
+- [Yarn](https://yarnpkg.com/)
+
 ### Back-end 🚧 (Em construção)
 
 - [Node](https://nodejs.org/en/)
