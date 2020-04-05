@@ -16,13 +16,26 @@
     <img src="frontend/src/assets/logo.svg" alt="Be The Hero" height="120" width="auto">
 </h2>
 
-<p>A aplicação tem o objetivo de intermediar o contato de ONG's que auxiliam os animais com as pessoas que quiserem ajudá-las financeiramente.<p>
+
+<h4 align="center">
+  A aplicação tem o objetivo de intermediar o contato de ONG's que auxiliam os animais com as pessoas que quiserem ajudá-las financeiramente.
+</h4>
+
+<div align="center">
+
+  ![GitHub language count](https://img.shields.io/github/languages/count/zehguilherme/semana-omnistack-11)
+  ![GitHub top language](https://img.shields.io/github/languages/top/zehguilherme/semana-omnistack-11)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/zehguilherme/semana-omnistack-11)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/zehguilherme/semana-omnistack-11)
+  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/cfaf5e87df9842d28fd545ab33e6376a)](https://www.codacy.com/manual/zehguilherme/semana-omnistack-11?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/semana-omnistack-11&amp;utm_campaign=Badge_Grade)
+
+</div>
 
 ## Empresa
 
 [Rocketseat](https://rocketseat.com.br/) - [Prof. Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)
 
-## Datas
+## 📅 Datas
 
 - [x] 23/03 - Conhecendo a OmniStack
 - [x] 24/03 - Criando a base da aplicação
@@ -31,19 +44,22 @@
 - [ ] 27/03 - Funcionalidades avançadas
 
 <h2 align="center">
-    Tecnologias
+    💻 Tecnologias
 </h2>
 
-## Gerenciador de pacotes
+## 📦 Gerenciador de pacotes
 
 Pode-se utilizar:
 
-- [npm](https://www.npmjs.com/) (Esta foi a escolha para esse projeto)
+- [npm](https://www.npmjs.com/) - Esta foi a escolha para esse projeto
 
   ou
 - [Yarn](https://yarnpkg.com/)
 
-### Back-end 🚧 (Em construção)
+-----
+
+<details>
+  <summary>Back-end 🚧 (Em construção)<summary>
 
 - [Node](https://nodejs.org/en/)
 - [API RESTful](https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/)
@@ -52,18 +68,27 @@ Pode-se utilizar:
 - [KNEX.js](http://knexjs.org/) - Query Builder
 - [Nodemon](https://nodemon.io/)
 - [CORS](https://enable-cors.org/)
+</details>
 
-### Front-end 🚧 (Em construção)
+<details>
+  <summary>Front-end 🚧 (Em construção)</summary>
 
 - [React](https://pt-br.reactjs.org/) - Web
-  - React Icons - Pacote que contém todos os ícones utilizados no React - `npm install react-icons`
+  - React Icons - Pacote que contém todos os ícones utilizados no React
     - [Feather icons](https://feathericons.com/)
 
   - Rotas da aplicação
-    - React router dom - `npm install react-router-dom`
+    - React router dom
 
+- [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP
+</details>
 
-- [React Native](https://reactnative.dev/) - Mobile
+<details>
+  <summary>Mobile 🚧 (Em construção)</summary>
+
+- [React Native](https://reactnative.dev/)
+
+</details>
 
 --------
 
