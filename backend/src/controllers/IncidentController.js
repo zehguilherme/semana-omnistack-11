@@ -12,7 +12,8 @@ module.exports = {
       .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
       .limit(5)                  // limitar busca para serem mostrados 5 registros por vez
       .offset((page - 1) * 5)    // pular a cada página de 5 em 5 registros em relação a anterior. Ex: 1 - 1 * 5
-      .select(['incidents.*',    // todos os dados da tabela incidents;
+      .select([
+        'incidents.*',    // todos os dados da tabela incidents;
         'ongs.name',
         'ongs.email',
         'ongs.whatsapp',
@@ -59,7 +60,7 @@ module.exports = {
       .first()           // retorna apenas 1 resultado
 
     // Verifica se o id buscado no banco é diferente do id da ONG logada no momento
-    if (incident.ong_id != ong_id) {
+    if (incident.ong_id !== ong_id) {
       return res.status(401).json({ error: 'Operation not permitted.' })
     }
 
