@@ -12,7 +12,7 @@ routes.get('/ongs', OngController.index)   // Listar
 routes.post('/ongs', OngController.create) // Criar
 
 // Profile
-routes.get('/incidents', ProfileController.index)   // Listar os casos específicos de uma única ONG
+routes.get('/profile', ProfileController.index)   // Listar os casos específicos de uma única ONG
 
 // Login - criar (post) uma sessão
 routes.post('/sessions', SessionController.create)
