@@ -59,7 +59,7 @@ Pode-se utilizar:
 -----
 
 <details>
-  <summary>Back-end 🚧 (Em construção)<summary>
+  <summary>Back-end 🚧 (Em construção)</summary>
 
 - [Node](https://nodejs.org/en/)
 - [API RESTful](https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/)
