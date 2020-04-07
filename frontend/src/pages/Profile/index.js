@@ -21,7 +21,7 @@ export default function Profile () {
   // Disparar uma função em algum determinado momento do componente
   useEffect(() => {
     api.get('profile', {
-      heads: {
+      headers: {
         Authorization: ongId,
       }
     }).then(response => {
@@ -85,7 +85,7 @@ export default function Profile () {
             <strong>VALOR:</strong>
             <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}</p>
 
-            <button onClick={() => handleDeleteIncident} type="button">
+            <button onClick={() => handleDeleteIncident(incident.id)} type="button">
               <FiTrash2 size={20} color="#a8a8b3"></FiTrash2>
             </button>
           </li>
