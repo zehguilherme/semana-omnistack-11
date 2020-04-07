@@ -39,7 +39,7 @@
 
 - [x] 23/03 - Conhecendo a OmniStack
 - [x] 24/03 - Criando a base da aplicação
-- [ ] 25/03 - Construindo a interface web
+- [x] 25/03 - Construindo a interface web
 - [ ] 26/03 - Desenvolvendo o app mobile
 - [ ] 27/03 - Funcionalidades avançadas
 
@@ -73,7 +73,7 @@ Pode-se utilizar:
 <details>
   <summary>Front-end 🚧 (Em construção)</summary>
 
-- [React](https://pt-br.reactjs.org/) - Web
+- [React](https://pt-br.reactjs.org/)
   - React Icons - Pacote que contém todos os ícones utilizados no React
     - [Feather icons](https://feathericons.com/)
 
