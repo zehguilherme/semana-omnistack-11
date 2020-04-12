@@ -22,7 +22,7 @@ module.exports = {
       ])
 
     //Total de itens na lista
-    res.header('X-Total_Count', count['count(*)'])
+    res.header('x-total-count', count['count(*)'])
 
     return res.json(incidents)
   },
