@@ -51,10 +51,10 @@
 
 Pode-se utilizar:
 
-- [npm](https://www.npmjs.com/) - Esta foi a escolha para esse projeto
+- [npm](https://www.npmjs.com/)
 
   ou
-- [Yarn](https://yarnpkg.com/)
+- [Yarn](https://yarnpkg.com/) - Esta foi a escolha para esse projeto
 
 -----
 
@@ -87,6 +87,10 @@ Pode-se utilizar:
   <summary>Mobile 🚧 (Em construção)</summary>
 
 - [React Native](https://reactnative.dev/)
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Expo](https://expo.io/)
+  - [MailComposer](https://docs.expo.io/versions/latest/sdk/mail-composer/) - Funcionalidade de e-mail
+- [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP
 
 </details>
 
