@@ -54,7 +54,7 @@ Pode-se utilizar:
 - [npm](https://www.npmjs.com/)
 
   ou
-- [Yarn](https://yarnpkg.com/) - Esta foi a escolha para esse projeto
+- [Yarn](https://yarnpkg.com/)
 
 -----
 
@@ -68,7 +68,9 @@ Pode-se utilizar:
 - [KNEX.js](http://knexjs.org/) - Query Builder
 - [Nodemon](https://nodemon.io/)
 - [CORS](https://enable-cors.org/)
-- [Celebrate](https://github.com/arb/celebrate) - Testes de validação
+- [Celebrate](https://github.com/arb/celebrate) - Validação
+- [Jest](https://jestjs.io/) - Framework para a realização de testes
+- [Supertest](https://github.com/visionmedia/supertest) - Biblioteca para chamadas a API (testes)
 </details>
 
 <details>
@@ -82,6 +84,7 @@ Pode-se utilizar:
     - React router dom
 
 - [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP
+- [Jest](https://jestjs.io/) - Framework para a realização de testes
 </details>
 
 <details>
@@ -92,7 +95,7 @@ Pode-se utilizar:
 - [Expo](https://expo.io/)
   - [MailComposer](https://docs.expo.io/versions/latest/sdk/mail-composer/) - Funcionalidade de e-mail
 - [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP
-
+- [Jest](https://jestjs.io/) - Framework para a realização de testes
 </details>
 
 --------
