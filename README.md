@@ -31,7 +31,7 @@
 
 </div>
 
-## Empresa
+## 🏢 Empresa
 
 [Rocketseat](https://rocketseat.com.br/) - [Prof. Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)
 
@@ -42,6 +42,10 @@
 - [x] 25/03 - Construindo a interface web
 - [x] 26/03 - Desenvolvendo o app mobile
 - [ ] 27/03 - Funcionalidades avançadas
+
+## ✏ Anotações
+
+- [Notion](https://www.notion.so/Semana-OmniStack-11-dcc8f10c5d794f309eb722cba8aa8613)
 
 <h2 align="center">
     💻 Tecnologias
