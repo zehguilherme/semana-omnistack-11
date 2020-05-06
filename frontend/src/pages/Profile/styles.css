@@ -5,7 +5,7 @@
   margin: 32px auto;
 }
 
-/************************************************************************** Header ***********************************************************/
+/************************************************************************* Header ****************************************************/
 .profile-container header {
   display: flex;
   align-items: center;
@@ -93,4 +93,27 @@
   color: #737380;
   line-height: 21px;
   font-size: 16px;
+}
+
+/***************************************************************************************************************************************/
+/**************************************************************Dark Mode****************************************************************/
+
+/* Media query */
+/* Utiliza a configuração atual do dispositivo (celular/computador) com relação ao dark mode */
+@media (prefers-color-scheme: dark) {
+  .profile-container ul li,
+  .profile-container ul li p,
+  .profile-container ul li button,
+  .profile-container ul li button svg,
+  .profile-container ul li strong {
+    background: #242424;
+  }
+
+  .profile-container ul li strong {
+    color: #efefef;
+  }
+
+  .profile-container ul li p {
+    color: #c2c2c5;
+  }
 }

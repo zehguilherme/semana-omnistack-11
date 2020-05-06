@@ -23,3 +23,18 @@
   font-size: 32px;
   margin-bottom: 32px;
 }
+
+/***************************************************************************************************************************************/
+/**************************************************************Dark Mode****************************************************************/
+
+/* Media query */
+/* Utiliza a configuração atual do dispositivo (celular/computador) com relação ao dark mode */
+@media (prefers-color-scheme: dark) {
+  .logon-container section.form form input::placeholder {
+    color: #c2c2c5;
+  }
+
+  .logon-container section.form form a {
+    background-color: #333;
+  }
+}

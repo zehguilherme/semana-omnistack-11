@@ -57,3 +57,40 @@
 .register-container .content form .input-group input + input {
   margin-left: 8px;
 }
+
+/***************************************************************************************************************************************/
+/**************************************************************Dark Mode****************************************************************/
+
+/* Media query */
+/* Utiliza a configuração atual do dispositivo (celular/computador) com relação ao dark mode */
+@media (prefers-color-scheme: dark) {
+  .register-container .content {
+    background: #242424;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  }
+
+  .register-container .content section,
+  .register-container .content section img,
+  .register-container .content section h1,
+  .register-container .content section p,
+  .register-container .content form,
+  .register-container .content form input,
+  .register-container .content form .input-group {
+    background: #242424;
+  }
+
+  .register-container .content section p,
+  .register-container .content form input::placeholder {
+    color: #c2c2c5;
+  }
+
+  /* Link */
+  .register-container .content section a,
+  .register-container .content section a svg {
+    background-color: #242424;
+  }
+
+  .register-container .content section a svg {
+    color: #e02041;
+  }
+}

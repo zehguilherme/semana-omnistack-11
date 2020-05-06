@@ -48,3 +48,42 @@
 .new-incident-container .content form textarea {
   margin-top: 8px;
 }
+
+/***************************************************************************************************************************************/
+/**************************************************************Dark Mode****************************************************************/
+
+/* Media query */
+/* Utiliza a configuração atual do dispositivo (celular/computador) com relação ao dark mode */
+@media (prefers-color-scheme: dark) {
+  .new-incident-container .content {
+    background: #242424;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  }
+
+  .new-incident-container .content section,
+  .new-incident-container .content section img,
+  .new-incident-container .content section h1,
+  .new-incident-container .content section p,
+  .new-incident-container .content form,
+  .new-incident-container .content form input,
+  .new-incident-container .content form textarea,
+  .new-incident-container .content form .input-group {
+    background: #242424;
+  }
+
+  .new-incident-container .content section p,
+  .new-incident-container .content form input::placeholder,
+  .new-incident-container .content form textarea::placeholder {
+    color: #c2c2c5;
+  }
+
+  /* Link */
+  .new-incident-container .content section a,
+  .new-incident-container .content section a svg {
+    background-color: #242424;
+  }
+
+  .new-incident-container .content section a svg {
+    color: #e02041;
+  }
+}

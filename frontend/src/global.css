@@ -86,3 +86,31 @@ form textarea {
 .back-link:hover {
   opacity: 0.8; /*diminuir a opacidade em 0.8*/
 }
+
+/***************************************************************************************************************************************/
+/**************************************************************Dark Mode****************************************************************/
+
+/* Media query */
+/* Utiliza a configuração atual do dispositivo (celular/computador) com relação ao dark mode */
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: #333;
+    color: #efefef;
+  }
+
+  input:focus,
+  input:not(:focus),
+  textarea:focus,
+  textarea:not(:focus) {
+    color: #efefef;
+    background-color: #333;
+  }
+
+  .button {
+    color: #efefef;
+  }
+
+  .back-link {
+    color: #efefef;
+  }
+}
