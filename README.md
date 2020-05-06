@@ -41,7 +41,7 @@
 - [x] 24/03 - Criando a base da aplicação
 - [x] 25/03 - Construindo a interface web
 - [x] 26/03 - Desenvolvendo o app mobile
-- [ ] 27/03 - Funcionalidades avançadas
+- [x] 27/03 - Funcionalidades avançadas
 
 ## ✏ Anotações
 
