@@ -47,6 +47,12 @@
 
 - [Notion](https://www.notion.so/Semana-OmniStack-11-dcc8f10c5d794f309eb722cba8aa8613)
 
+## 👁 Preview
+
+<img width="350" src="https://res.cloudinary.com/zehguilherme/video/upload/a_90/v1588965111/mobile-dark_uw5dgn.gif">
+
+<img width="350" src="https://res.cloudinary.com/zehguilherme/video/upload/vc_auto/a_90/v1588965103/mobile-light_jhlj2f.gif">
+
 <h2 align="center">
     💻 Tecnologias
 </h2>
