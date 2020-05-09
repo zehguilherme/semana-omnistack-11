@@ -49,9 +49,25 @@
 
 ## 👁 Preview
 
-<img width="350" src="https://res.cloudinary.com/zehguilherme/video/upload/a_90/v1588965111/mobile-dark_uw5dgn.gif">
+- Front-end
 
-<img width="350" src="https://res.cloudinary.com/zehguilherme/video/upload/vc_auto/a_90/v1588965103/mobile-light_jhlj2f.gif">
+<div align="center">
+  <h4>Modo escuro<h4>
+  <img src="global-assets/front-end-dark.gif">
+
+  <h4>Modo claro<h4>
+  <img src="global-assets/front-end-light.gif">
+</div>
+
+- Mobile
+
+<div align="center">
+<h4>Modo Escuro</h4>
+  <img width="300" src="global-assets/mobile-dark.gif">
+
+<h4>Modo Claro</h4>
+  <img width="300" src="global-assets/mobile-light.gif">
+</div>
 
 <h2 align="center">
     💻 Tecnologias
