@@ -66,11 +66,11 @@
 <div align="center">
   <h4>Modo Escuro</h4>
 
-  ![Mobile - Modo Escuro](global-assets/mobile-dark.gif)
+  <img width="350" src="global-assets/mobile-dark.gif" alt="Mobile escuro">
 
   <h4>Modo Claro</h4>
 
-  ![Mobile - Modo Claro](global-assets/mobile-light.gif)
+  <img width="350" src="global-assets/mobile-light.gif" alt="Mobile claro">
 
 </div>
 
