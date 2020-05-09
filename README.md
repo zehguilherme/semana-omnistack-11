@@ -53,20 +53,25 @@
 
 <div align="center">
   <h4>Modo escuro<h4>
-  <img src="global-assets/front-end-dark.gif">
+
+  ![Front-end - Modo Escuro](global-assets/front-end-dark.gif)
 
   <h4>Modo claro<h4>
-  <img src="global-assets/front-end-light.gif">
+
+  ![Front-end - Modo Claro](global-assets/front-end-light.gif)
 </div>
 
 - Mobile
 
 <div align="center">
-<h4>Modo Escuro</h4>
-  <img width="300" src="global-assets/mobile-dark.gif">
+  <h4>Modo Escuro</h4>
 
-<h4>Modo Claro</h4>
-  <img width="300" src="global-assets/mobile-light.gif">
+  ![Mobile - Modo Escuro](global-assets/mobile-dark.gif)
+
+  <h4>Modo Claro</h4>
+
+  ![Mobile - Modo Claro](global-assets/mobile-light.gif)
+
 </div>
 
 <h2 align="center">
