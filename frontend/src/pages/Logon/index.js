@@ -43,6 +43,7 @@ export default function Logon () {
 
           <input
             placeholder="Sua ID"
+            maxLength={8}
             value={id}
             onChange={e => setId(e.target.value)}
           />
