@@ -73,6 +73,29 @@ export default StyleSheet.create({
     color: '#e02041',
     fontSize: 15,
     fontWeight: 'bold'
-  }
+  },
 
+  /***************************************************************** Dark mode *************************************************************/
+  dark: {
+    backgroundColor: '#333',
+    color: '#fff'
+  },
+
+  incidentDark: {
+    padding: 24,
+    borderRadius: 8,
+    marginBottom: 16,
+    backgroundColor: '#242424'
+  },
+
+  incidentPropertyDark: {
+    color: '#fff'
+  },
+
+  incidentValueDark: {
+    marginTop: 8,
+    fontSize: 15,
+    marginBottom: 24,
+    color: '#737380'
+  }
 })
