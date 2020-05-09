@@ -1,17 +1,37 @@
 {
   "env": {
-    "browser": true,
-    "commonjs": true,
     "es6": true
   },
-  "extends": "eslint:recommended",
+  "extends": ["plugin:react/recommended", "airbnb"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "rules": {}
+  "plugins": ["react"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [".jsx", ".js"]
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "react/state-in-constructor": "off",
+    "react/static-property-placement": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "no-param-reassign": "off",
+    "no-console": "off",
+
+    "quotes": ["error", "never"],
+    "semi": ["error", "never"]
+  }
 }
