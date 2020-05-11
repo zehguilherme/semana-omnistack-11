@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
+import { mask, unMask } from 'remask'
 
 import api from '../../services/api'
 
@@ -28,7 +29,7 @@ export default function Register () {
       whatsapp,
       city,
       uf
-    };
+    }
 
     // Se deu certo
     try {
@@ -62,6 +63,8 @@ export default function Register () {
         <form onSubmit={handleRegister}>
           <input
             placeholder="Nome da ONG"
+            required={true}
+            maxLength={40}
             value={name}
             onChange={e => setName(e.target.value)}
           />
@@ -76,7 +79,13 @@ export default function Register () {
           <input
             placeholder="WhatsApp"
             value={whatsapp}
-            onChange={e => setWhatsapp(e.target.value)}
+            onChange={
+              e => setWhatsapp(
+                mask(
+                  unMask(e.target.value), ['(99) 9999-9999', '(99) 9 9999-9999']
+                )
+              )
+            }
           />
 
           <div className="input-group">
@@ -90,7 +99,13 @@ export default function Register () {
               placeholder="UF"
               style={{ width: 80 }}
               value={uf}
-              onChange={e => setUf(e.target.value)}
+              onChange={
+                e => setUf(
+                  mask(
+                    unMask(e.target.value), ['AA']
+                  ).toUpperCase()
+                )
+              }
             />
 
           </div>
