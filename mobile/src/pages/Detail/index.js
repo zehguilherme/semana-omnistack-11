@@ -3,6 +3,7 @@ import { Feather } from '@expo/vector-icons'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { Image, Text, View, TouchableOpacity, Linking } from 'react-native'
 import * as MailComposer from 'expo-mail-composer'
+import { useColorScheme } from 'react-native-appearance'
 
 import logoImg from '../../assets/logo.png'
 
@@ -11,6 +12,8 @@ import styles from './styles'
 export default function Detail () {
   const navigation = useNavigation()
   const route = useRoute()  //pega informações específicas da página atual da aplicação
+
+  const theme = useColorScheme()
 
   const incident = route.params.incident
   const message = `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso "${incident.title}" com o valor de ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)}`
@@ -35,8 +38,8 @@ export default function Detail () {
   }
 
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
+    <View style={[styles.container, styles[theme]]}>
+      <View style={[styles.header, styles[theme]]}>
         <Image source={logoImg} />
 
         <TouchableOpacity onPress={navigateBack}>
@@ -44,15 +47,15 @@ export default function Detail () {
         </TouchableOpacity>
       </View>
 
-      <View style={styles.incident}>
-        <Text style={[styles.incidentProperty, { marginTop: 0 }]}>ONG:</Text>
-        <Text style={styles.incidentValue}>{incident.name} de {incident.city}/{incident.uf}</Text>
+      <View style={[theme == 'light' ? styles.incident : styles.incidentDark]}>
+        <Text style={[theme == 'light' ? [styles.incidentProperty, { marginTop: 0 }] : [styles.incidentPropertyDark, { marginTop: 0 }]]}>ONG:</Text>
+        <Text style={[theme == 'light' ? styles.incidentValue : styles.incidentValueDark]}>{incident.name} de {incident.city}/{incident.uf}</Text>
 
-        <Text style={styles.incidentProperty}>CASO:</Text>
-        <Text style={styles.incidentValue}>{incident.title}.</Text>
+        <Text style={[theme == 'light' ? styles.incidentProperty : styles.incidentPropertyDark]}>CASO:</Text>
+        <Text style={[theme == 'light' ? styles.incidentValue : styles.incidentValueDark]}>{incident.title}.</Text>
 
-        <Text style={styles.incidentProperty}>VALOR:</Text>
-        <Text style={styles.incidentValue}>
+        <Text style={[theme == 'light' ? styles.incidentProperty : styles.incidentPropertyDark]}>VALOR:</Text>
+        <Text style={[theme == 'light' ? styles.incidentValue : styles.incidentValueDark]}>
           {Intl.NumberFormat('pt-BR', {
             style: 'currency',
             currency: 'BRL'
@@ -60,11 +63,11 @@ export default function Detail () {
         </Text>
       </View>
 
-      <View style={styles.contactBox}>
-        <Text style={styles.heroTitle}>Salve o dia!</Text>
-        <Text style={styles.heroTitle}>Seja o herói desse caso.</Text>
+      <View style={[theme == 'light' ? styles.contactBox : styles.contactBoxDark]}>
+        <Text style={[theme == 'light' ? styles.heroTitle : styles.heroTitleDark]}>Salve o dia!</Text>
+        <Text style={[theme == 'light' ? styles.heroTitle : styles.heroTitleDark]}>Seja o herói desse caso.</Text>
 
-        <Text style={styles.heroDescription}>Entre em contato:</Text>
+        <Text style={[theme == 'light' ? styles.heroDescription : styles.heroDescriptionDark]}>Entre em contato:</Text>
 
         <View style={styles.actions}>
           <TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
