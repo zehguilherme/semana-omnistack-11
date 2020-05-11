@@ -59,6 +59,7 @@ export default function NewIncident () {
         <form onSubmit={handleNewIncident}>
           <input
             placeholder="Título do caso"
+            maxLength={50}
             value={title}
             onChange={e => setTitle(e.target.value)}
           />
