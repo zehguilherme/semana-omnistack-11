@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Feather } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 import { View, FlatList, Image, Text, TouchableOpacity } from 'react-native'
+import { useColorScheme } from 'react-native-appearance'
 
 import api from '../../services/api'
 
@@ -17,6 +18,8 @@ export default function Incidents () {
   const [loading, setLoading] = useState(false) //armazenar uma informação quando se está buscando dados novos para evitar que eles sejam buscados novamente
 
   const navigation = useNavigation()  //permite a navegação do usuário
+
+  const theme = useColorScheme()
 
   // Navegar usuário para a página de detalhes de cada caso
   function navigateToDetail (incident) {
@@ -55,34 +58,34 @@ export default function Incidents () {
   }, [])
 
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
+    <View style={[styles.container, styles[theme]]}>
+      <View style={[styles.header, styles[theme]]}>
         <Image source={logoImg} />
-        <Text style={styles.headerText}>
+        <Text style={[styles.headerText, styles[theme]]}>
           Total de <Text style={styles.headerTextBold}>{total} casos</Text>
         </Text>
       </View>
 
-      <Text style={styles.title}>Bem-vindo!</Text>
-      <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia.</Text>
+      <Text style={[styles.title, styles[theme]]}>Bem-vindo!</Text>
+      <Text style={[styles.description, styles[theme]]}>Escolha um dos casos abaixo e salve o dia.</Text>
 
       <FlatList
         data={incidents}                       //vetor de dados que monta a lista de itens
-        style={styles.incidentList}
+        style={[styles.incidentList, styles[theme]]}
         keyExtractor={incident => String(incident.id)}  //usa o id de cada indicent para determinar qual é qual (informação única para cada 1 deles)
         showsVerticalScrollIndicator={false}            //tira a barra que indica o scroll da página
         onEndReached={loadIncidents}                    //dispara uma função quando usuário chega no final da lista
         onEndReachedThreshold={0.2}                     //quantos % do final da lista o usuário precisa estar para que sejam carregados novo itens (0 a 1)
         renderItem={({ item: incident }) => (           //renderItem: função responsável que armazena cada item da lista
-          <View style={styles.incident}>
-            <Text style={styles.incidentProperty}>ONG:</Text>
-            <Text style={styles.incidentValue}>{incident.name}</Text>
+          <View style={[theme == 'light' ? styles.incident : styles.incidentDark]}>
+            <Text style={[theme == 'light' ? styles.incidentProperty : styles.incidentPropertyDark]}>ONG:</Text>
+            <Text style={[theme == 'light' ? styles.incidentValue : styles.incidentValueDark]}>{incident.name}</Text>
 
-            <Text style={styles.incidentProperty}>CASO:</Text>
-            <Text style={styles.incidentValue}>{incident.title}.</Text>
+            <Text style={[theme == 'light' ? styles.incidentProperty : styles.incidentPropertyDark]}>CASO:</Text>
+            <Text style={[theme == 'light' ? styles.incidentValue : styles.incidentValueDark]}>{incident.title}</Text>
 
-            <Text style={styles.incidentProperty}>VALOR:</Text>
-            <Text style={styles.incidentValue}>
+            <Text style={[theme == 'light' ? styles.incidentProperty : styles.incidentPropertyDark]}>VALOR:</Text>
+            <Text style={[theme == 'light' ? styles.incidentValue : styles.incidentValueDark]}>
               {Intl.NumberFormat('pt-BR', {
                 style: 'currency',
                 currency: 'BRL'
