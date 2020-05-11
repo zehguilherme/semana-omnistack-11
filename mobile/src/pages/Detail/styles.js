@@ -74,5 +74,52 @@ export default StyleSheet.create({
     color: '#fff',
     fontSize: 15,
     fontWeight: 'bold'
+  },
+
+  /***************************************************************** Dark mode *************************************************************/
+  dark: {
+    backgroundColor: '#333',
+    color: '#fff'
+  },
+
+  incidentDark: {
+    padding: 24,
+    borderRadius: 8,
+    marginBottom: 16,
+    marginTop: 48,
+    backgroundColor: '#242424'
+  },
+
+  incidentPropertyDark: {
+    fontSize: 14,
+    color: '#fff',
+    fontWeight: 'bold',
+    marginTop: 24,
+  },
+
+  incidentValueDark: {
+    marginTop: 8,
+    fontSize: 15,
+    color: '#737380'
+  },
+
+  contactBoxDark: {
+    padding: 24,
+    borderRadius: 8,
+    backgroundColor: '#242424',
+    marginBottom: 16,
+  },
+
+  heroTitleDark: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: '#fff',
+    lineHeight: 30
+  },
+
+  heroDescriptionDark: {
+    fontSize: 15,
+    color: '#737380',
+    marginTop: 16
   }
 })
