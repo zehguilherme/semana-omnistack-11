@@ -49,7 +49,10 @@
 
 ## 👁 Preview
 
+#### Para alterar entre os modos escuro e claro é necessário manualmente realizar essa mudança no sistema operacional (seja windows, linux, macOS ou mobile).
+
 - Front-end
+
 
 <div align="center">
   <h4>Modo escuro<h4>
@@ -74,10 +77,6 @@
 
 </div>
 
-<h2 align="center">
-    💻 Tecnologias
-</h2>
-
 ## 📦 Gerenciador de pacotes
 
 Pode-se utilizar:
@@ -85,12 +84,24 @@ Pode-se utilizar:
 - [npm](https://www.npmjs.com/)
 
   ou
+
 - [Yarn](https://yarnpkg.com/)
 
------
+## 🎮 Utilização
+
+- Front-end: entre na pasta `frontend` através do comando no terminal `cd frontend` e após isso digite `yarn start` ou `npm start`.
+
+- Back-end: entre na pasta `backend` através do comando no terminal `cd backend` e após isso digite `yarn start` ou `npm start`.
+
+- Mobile: entre na pasta `mobile` através do comando no terminal `cd mobile` e após isso digite `yarn start` ou `npm start`.
+  - Instale no seu celular Android ou IOS o aplicativo `Expo` e escaneie o QR code que aparece na tela.
+  - [Google Play]([https://link](https://play.google.com/store/apps/details?id=host.exp.exponent))
+  - [App Store](https://apps.apple.com/br/app/expo-client/id982107779) 🍎
+
+## 💻 Tecnologias
 
 <details>
-  <summary>Back-end 🚧 (Em construção)</summary>
+  <summary>Back-end</summary>
 
 - [Node](https://nodejs.org/en/)
 - [API RESTful](https://www.iset.com.br/blog/o-que-e-api-restful-entenda-aqui/)
@@ -105,7 +116,7 @@ Pode-se utilizar:
 </details>
 
 <details>
-  <summary>Front-end 🚧 (Em construção)</summary>
+  <summary>Front-end</summary>
 
 - [React](https://pt-br.reactjs.org/)
   - React Icons - Pacote que contém todos os ícones utilizados no React
@@ -119,7 +130,7 @@ Pode-se utilizar:
 </details>
 
 <details>
-  <summary>Mobile 🚧 (Em construção)</summary>
+  <summary>Mobile</summary>
 
 - [React Native](https://reactnative.dev/)
 - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
