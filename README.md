@@ -95,7 +95,7 @@ Pode-se utilizar:
 
 - Mobile: entre na pasta `mobile` através do comando no terminal `cd mobile` e após isso digite `yarn start` ou `npm start`.
   - Instale no seu celular Android ou IOS o aplicativo `Expo` e escaneie o QR code que aparece na tela.
-  - [Google Play]([https://link](https://play.google.com/store/apps/details?id=host.exp.exponent))
+  - [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
   - [App Store](https://apps.apple.com/br/app/expo-client/id982107779) 🍎
 
 ## 💻 Tecnologias
