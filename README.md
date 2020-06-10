@@ -31,6 +31,18 @@
 
 </div>
 
+<p align="center">
+    <a href="#-empresa">Empresa</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-datas">Datas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-anotações">Anotações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-gerenciador-de-pacotes">Gerenciador de pacotes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-utilização">Utilização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-licensa">Licensa</a>
+</p>
+
 ## 🏢 Empresa
 
 [Rocketseat](https://rocketseat.com.br/) - [Prof. Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)
@@ -45,7 +57,7 @@
 
 ## ✏ Anotações
 
-- [Notion](https://www.notion.so/Semana-OmniStack-11-dcc8f10c5d794f309eb722cba8aa8613)
+- [Notion](https://www.notion.so/Semana-Omnistack-11-fdb2b9b8cc6b4fe3a4866e6de082b4c8)
 
 ## 👁 Preview
 
@@ -140,8 +152,19 @@ Pode-se utilizar:
 - [Jest](https://jestjs.io/) - Framework para a realização de testes
 </details>
 
---------
+## 🤔 Como contribuir
 
-## Licença
+1. Faça um fork desse repositório;
+2. Crie uma branch com a sua feature: `git checkout -b minha-feature`;
+3. Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+4. Faça push para a sua branch: `git push origin minha-feature`;
+5. Crie um pull request;
+6. Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-MIT © [José Guilherme Paro Monteiro Tomaine](https://www.linkedin.com/in/jos%C3%A9-guilherme-paro-monteiro-tomaine-03540265/)
+## 📝 Licensa
+
+Este projeto está sob a licensa MIT. Veja a [licensa](LICENSE) para mais informações.
+
+---
+
+Feito com 💟 por José Guilherme Paro Monteiro Tomaine 👋 [Fale comigo!](https://www.linkedin.com/in/jos%C3%A9-guilherme-paro-monteiro-tomaine/)
